@@ -17,7 +17,7 @@ def fp_growth_main(user, support_threshold=30000, confidence_threshold=0.01):
             rules = pickle.load(handle)
 
     print(recommend(user, rules))
-    
+
 
 
 def recommend(user, rules):
