@@ -1,14 +1,13 @@
 __author__ = 'Marcelo d\'Almeida'
 
-import pickle
-
+from tqdm import tqdm
 import os.path
 import pandas as pd
 from implicit.als import AlternatingLeastSquares
 from scipy.sparse import csr_matrix
 
 
-def preprocess():
+def evaluate():
 
     if os.path.isfile('dataset/modified/simple_order_product_data.csv'):
         print("Reading simple_order_product_data.csv")
@@ -36,7 +35,6 @@ def preprocess():
         order_and_product_data = pd.read_csv('dataset/modified/simple_order_product_data.csv')
         order_data = pd.read_csv('dataset/orders.csv')
 
-        product_data = pd.read_csv('dataset/products.csv')
 
         order_and_user_data = order_data.loc[:,('order_id', 'user_id')];
 
@@ -49,30 +47,52 @@ def preprocess():
         user_product_data = user_product_data.to_frame().reset_index()
         user_product_data.columns = ['user_id', 'product_id', 'total']
 
-        user_product_data.to_csv('dataset/modified/user_product_data.csv', index=False);
 
-    if not os.path.isfile('dataset/modified/alternating_least_squares/product_user_sparse_matrix.pickle'):
+    user_product_data_train_set = user_product_data.loc[user_product_data['total'] > 1]
+    user_product_data_test_set = user_product_data.loc[user_product_data['total'] == 1]
 
-        row_ind = user_product_data['product_id']
-        col_ind = user_product_data['user_id']
-        data = user_product_data['total']
+    row_ind = user_product_data_train_set['product_id']
+    col_ind = user_product_data_train_set['user_id']
+    data = user_product_data_train_set['total']
 
-        product_user_sparse_matrix = csr_matrix((data, (row_ind, col_ind)))
+    product_user_sparse_matrix = csr_matrix((data, (row_ind, col_ind)))
 
-        with open('dataset/modified/alternating_least_squares/product_user_sparse_matrix.pickle', 'wb') as handle:
-            pickle.dump(product_user_sparse_matrix, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    print("Done pickling user product sparse matrix")
 
-        print("Done pickling user product sparse matrix")
+    model = AlternatingLeastSquares()
+    model.fit(product_user_sparse_matrix)
 
-    if not os.path.isfile('dataset/modified/alternating_least_squares/model.pickle'):
+    print("Done fiting model")
 
-        model = AlternatingLeastSquares()
-        model.fit(product_user_sparse_matrix)
+    sample = 10000
+    seed = 145
 
-        with open('dataset/modified/alternating_least_squares/model.pickle', 'wb') as handle:
-            pickle.dump(model, handle, protocol=pickle.HIGHEST_PROTOCOL)
-        print("Done fiting model")
+    users = user_product_data_test_set['user_id'].drop_duplicates()
+    users = list(users.sample(sample, random_state=seed))
 
-    print("Preprocessing Done")
+    correct = 0
+    total = 0
 
+    with tqdm(total=len(users)) as progress:
+        for user in users:
 
+            user_products_test_set = list(user_product_data_test_set.loc[user_product_data_test_set['user_id'] == user]['product_id'])
+            recommendations = model.recommend(user, product_user_sparse_matrix.T.tocsr(), N=len(user_products_test_set))
+
+            for recommendation in recommendations:
+
+                product = recommendation[0]
+                if product in user_products_test_set:
+                    correct += 1
+
+                total += 1
+            progress.update(1)
+
+    print(correct)
+    print(total)
+    print("% correct:", correct/total)
+
+    data = {'correct': [correct], 'total': [total], 'percentage': [correct/total]}
+    evaluation = pd.DataFrame(data=data)
+
+    evaluation.to_csv("dataset/modified/alternating_least_squares/evaluation/all-reordered_train-set__all-new_test-set_evaluation--sample-" + str(sample) + "-seed-" + str(seed) + ".csv", index=False)

@@ -3,13 +3,12 @@ __author__ = 'Marcelo d\'Almeida'
 import pickle
 import time
 
+import orangecontrib.associate.fpgrowth as fp
 import os.path
 import pandas as pd
 
-import orangecontrib.associate.fpgrowth as fp
 
-
-def preprocess(support_threshold=70000, confidence_threshold=0.0):
+def preprocess(support_threshold=70000, confidence_threshold=0.01):
 
     if not os.path.isfile('dataset/modified/fp_growth/transactions.pickle'):
 
@@ -65,44 +64,22 @@ def preprocess(support_threshold=70000, confidence_threshold=0.0):
             rules = pickle.load(handle)
     else:
         t0 = time.time()
-        rules = fp.association_rules(patterns, confidence_threshold)
+        rules = list(fp.association_rules(patterns, confidence_threshold))
         t1 = time.time()
         total = t1 - t0
         print("rules generation time:", total)
 
-        #calculate_lift(rules, transactions)
+        calculate_lift(rules, patterns)
 
         with open('dataset/modified/fp_growth/rules' + str(support_threshold) + '_' + str(confidence_threshold) + '.pickle', 'wb') as handle:
-            pickle.dump(dict(rules), handle, protocol=pickle.HIGHEST_PROTOCOL)
+            pickle.dump(rules, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
     print("Preprocessing Done")
 
-def calculate_lift(rules, transactions):
+def calculate_lift(rules, patterns):
 
-    support_dict = {}
-
-    tuple_list = []
-    for key, value in rules.items():
-        tuple = (key, value[0], value[1])
-        tuple_list.append(tuple)
-
-    #lift = confidence / support(consequent)
-
-    consequent_count = {}
-
-    valid_transaction_count = 0
-    length = len(transactions)
-    for transaction in transactions:
-
-        for value in rules.items():
-            consequent = value[0]
-
-            valid_transaction = True
-            for item in consequent:
-                if item not in transaction:
-                    valid_transaction = False
-
-            if (valid_transaction):
-                valid_transaction_count += 1
-
-    return valid_transaction_count / length
+    for rule in rules:
+        consequent = rule[1]
+        confidence = rule[3]
+        lift = confidence / patterns[consequent]
+        rule += (lift,)

@@ -4,6 +4,7 @@ from fp_growth import Main as  Fp_Growth_Main
 from fp_growth import Preprocessing as FP_Growth_Preprocessing
 from alternating_least_squares import Main as Alternating_Least_Squares_Main
 from alternating_least_squares import Preprocessing as Alternating_Least_Squares_Preprocessing
+from alternating_least_squares.evaluation import AllReorderedTrainSetAllNewTestSetEvaluation as Alternating_Least_Squares_Evaluation
 
 import argparse
 
@@ -19,8 +20,13 @@ def alternating_least_squares_preprocessing():
 def alternating_least_squares_main(user):
     Alternating_Least_Squares_Main.alternating_least_squares_main(user)
 
+def alternating_least_squares_evaluation():
+    Alternating_Least_Squares_Evaluation.evaluate()
+
 
 def main():
+
+    #alternating_least_squares_evaluation()
 
     stop_condition = False
 
