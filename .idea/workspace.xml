@@ -2,32 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63d9fbe0-12f5-4a39-987c-8cc1dd37aa13" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fp_growth/evaluation/AllReorderedTrainSetAllNewTestSetEvaluation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fp_growth/evaluation/AllTrainSetNewOnlyTestSetEvaluation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fp_growth/evaluation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/MANIFEST.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/docs/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/docs/conf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/docs/make.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/pyfpgrowth/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/pyfpgrowth/pyfpgrowth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/requirements_dev.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/setup.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/tests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/tests/belgian_retail_baskets.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/tests/test_pyfpgrowth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/tox.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/fp_growth/travis_pypi_setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/alternating_least_squares/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/alternating_least_squares/Preprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fp_growth/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp_growth/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fp_growth/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fp_growth/Preprocessing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,59 +18,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Preprocessing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fp_growth/Preprocessing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="52" column="44" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="44" />
-              <folding>
-                <element signature="e#35#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/fp_growth/Main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-              <folding>
-                <element signature="e#35#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/alternating_least_squares/Main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
-              <folding>
-                <element signature="e#1#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fpgrowth.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/orangecontrib/associate/fpgrowth.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5083">
-              <caret line="319" column="25" selection-start-line="319" selection-start-column="4" selection-end-line="319" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#35#80#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all-reordered_train-set__all-new_test-set_evaluation--sample-10000-seed-145.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dataset/modified/alternating_least_squares/evaluation/all-reordered_train-set__all-new_test-set_evaluation--sample-10000-seed-145.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all-reordered_train-set__all-new_test-set_evaluation--sample-100-seed-145.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dataset/modified/alternating_least_squares/evaluation/all-reordered_train-set__all-new_test-set_evaluation--sample-100-seed-145.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all_train-set__new-only_test-set_evaluation--sample-10000-seed-145.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dataset/modified/fp_growth/evaluation/all_train-set__new-only_test-set_evaluation--sample-10000-seed-145.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all-reordered_train-set__all-new_test-set_evaluation--sample-10000-seed-145.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dataset/modified/fp_growth/evaluation/all-reordered_train-set__all-new_test-set_evaluation--sample-10000-seed-145.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all_train-set__new-only_test-set_evaluation--sample-100-seed-145.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dataset/modified/alternating_least_squares/evaluation/all_train-set__new-only_test-set_evaluation--sample-100-seed-145.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -139,18 +119,24 @@
         <option value="$PROJECT_DIR$/src/alternating_least_squares/Postprocessing.py" />
         <option value="$PROJECT_DIR$/src/algorithm/evandempsey_fp_growth/pyfpgrowth/pyfpgrowth.py" />
         <option value="$PROJECT_DIR$/src/alternating_least_squares/Main.py" />
-        <option value="$PROJECT_DIR$/src/Main.py" />
         <option value="$PROJECT_DIR$/src/alternating_least_squares/Preprocessing.py" />
         <option value="$PROJECT_DIR$/src/fp_growth/Preprocessing.py" />
+        <option value="$PROJECT_DIR$/src/alternating_least_squares/evaluation/AllReorderedTrainSetAllNewTestSetEvaluation.py" />
         <option value="$PROJECT_DIR$/src/fp_growth/Main.py" />
+        <option value="$PROJECT_DIR$/src/fp_growth/evaluation/AllReorderedTrainSetAllNewTestSetEvaluation.py" />
+        <option value="$PROJECT_DIR$/src/dataset/modified/fp_growth/evaluation/New Text Document.txt" />
+        <option value="$PROJECT_DIR$/src/fp_growth/evaluation/AllTrainSetNewOnlyTestSetEvaluation.py" />
+        <option value="$PROJECT_DIR$/src/dataset/modified/fp_growth/evaluation/all_train-set__new-only_test-set_evaluation--sample-10000-seed-145.csv" />
+        <option value="$PROJECT_DIR$/src/dataset/modified/fp_growth/evaluation/all-reordered_train-set__all-new_test-set_evaluation--sample-10000-seed-145.csv" />
+        <option value="$PROJECT_DIR$/src/Main.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="y" value="-15" />
-    <option name="width" value="3873" />
-    <option name="height" value="2093" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-50" />
+    <option name="y" value="-10" />
+    <option name="width" value="3860" />
+    <option name="height" value="2075" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -160,7 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,12 +205,37 @@
               <item name="market-basket-product-recommender" type="b2602c69:ProjectViewProjectNode" />
               <item name="market-basket-product-recommender" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+              <item name="modified" type="462c0819:PsiDirectoryNode" />
               <item name="fp_growth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market-basket-product-recommender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market-basket-product-recommender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+              <item name="modified" type="462c0819:PsiDirectoryNode" />
+              <item name="fp_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market-basket-product-recommender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market-basket-product-recommender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fp_growth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="market-basket-product-recommender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="market-basket-product-recommender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fp_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,11 +252,11 @@
       <recent name="C:\Users\Marcelo d'Almeida\Documents\GitHub\market-basket-product-recommender\src\folder\ab" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marcelo d'Almeida\Documents\GitHub\market-basket-product-recommender\src\dataset\modified\fp_growth\evaluation" />
+      <recent name="C:\Users\Marcelo d'Almeida\Documents\GitHub\market-basket-product-recommender\src\fp_growth" />
       <recent name="C:\Users\Marcelo d'Almeida\Documents\GitHub\market-basket-product-recommender\src\dataset\modified\fp_growth" />
       <recent name="C:\Users\Marcelo d'Almeida\Documents\GitHub\market-basket-product-recommender\src\algorithm\benfred_implicit" />
       <recent name="C:\Users\Marcelo d'Almeida\Documents\GitHub\market-basket-product-recommender\src\alternating_least_squares" />
-      <recent name="C:\Users\Marcelo d'Almeida\Documents\GitHub\market-basket-product-recommender\src" />
-      <recent name="C:\Users\Marcelo d'Almeida\Documents\GitHub\market-basket-product-recommender\src\fp_growth" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -262,6 +272,24 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.Main">
+    <configuration name="AllReorderedTrainSetAllNewTestSetEvaluation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="market-basket-product-recommender" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/fp_growth/evaluation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/fp_growth/evaluation/AllReorderedTrainSetAllNewTestSetEvaluation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Fp_Growth_Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="market-basket-product-recommender" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -334,34 +362,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="py.test in C:/Users/Marcelo d'Almeida/Marcelo d'Almeida/PycharmProjects/market-basket-product-recommender/src/algorithm/evandempsey-fp-growth/tests/test_pyfpgrowth.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="market-basket-product-recommender" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/algorithm/evandempsey_fp_growth/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/../../../../Marcelo d\u0027Almeida/Marcelo d\u0027Almeida/PycharmProjects/market-basket-product-recommender/src/algorithm/evandempsey-fp-growth/tests/test_pyfpgrowth.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <list>
-      <item itemvalue="Python tests.py.test in C:/Users/Marcelo d'Almeida/Marcelo d'Almeida/PycharmProjects/market-basket-product-recommender/src/algorithm/evandempsey-fp-growth/tests/test_pyfpgrowth.py" />
       <item itemvalue="Python.Main" />
       <item itemvalue="Python.Fp_Growth_Main" />
       <item itemvalue="Python.Preprocessing" />
       <item itemvalue="Python.Main (1)" />
+      <item itemvalue="Python.AllReorderedTrainSetAllNewTestSetEvaluation" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python.AllReorderedTrainSetAllNewTestSetEvaluation" />
         <item itemvalue="Python.Main (1)" />
         <item itemvalue="Python.Preprocessing" />
         <item itemvalue="Python.Fp_Growth_Main" />
-        <item itemvalue="Python tests.py.test in C:/Users/Marcelo d'Almeida/Marcelo d'Almeida/PycharmProjects/market-basket-product-recommender/src/algorithm/evandempsey-fp-growth/tests/test_pyfpgrowth.py" />
       </list>
     </recent_temporary>
   </component>
@@ -389,37 +403,36 @@
       <configuration name="py.test in test_pyfpgrowth.py" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13909379" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28665787" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50084317" side_tool="true" weight="0.36" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32722145" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.37554112" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49915683" weight="0.28896105" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.40800866" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49915683" visible="true" weight="0.37658674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.33991536" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4891775" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3977433" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49915683" weight="0.3779972" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2001321" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43300423" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50084317" side_tool="true" weight="0.36" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32722145" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33991536" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.4090268" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -434,7 +447,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="58" />
+      <option name="time" value="68" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -444,6 +457,31 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>total</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>print(order_and_product_data.loc[order_and_product_data['total'] &gt; 1])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>order_and_product_data.loc[order_and_product_data['total'] &gt; 1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>print(order_and_product_data)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>order_and_product_data</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>transactions.values()</expression-string>
         <language-id>Python</language-id>
@@ -464,121 +502,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>sorted_product_rules</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sorted(tuple_list, key=lambda x: x[2], reverse=True)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sorted(tuple_list, key=lambda x: x[2])</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>print(rules)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>rules</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-          <folding>
-            <element signature="e#35#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fp_growth/Preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding>
-            <element signature="e#35#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/alternating_least_squares/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <element signature="e#1#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/alternating_least_squares/Preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fp_growth/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fp_growth/Preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/alternating_least_squares/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" lean-forward="true" selection-start-column="37" selection-end-column="37" />
-          <folding>
-            <element signature="e#1#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/src/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#35#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/benfred_implicit/implicit/als.py" />
-    <entry file="file://$PROJECT_DIR$/src/alternating_least_squares/Preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fp_growth/Main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -607,6 +533,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#35#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -724,7 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/__init__.py" />
     <entry file="file://$PROJECT_DIR$/src/dataset/modified/user_product_data.csv">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="17">
@@ -774,51 +702,136 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/evandempsey_fp_growth/pyfpgrowth/pyfpgrowth.py" />
+    <entry file="file://$PROJECT_DIR$/src/alternating_least_squares/Preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#35#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/orangecontrib/associate/fpgrowth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3604">
+          <caret line="319" column="25" selection-start-line="319" selection-start-column="4" selection-end-line="319" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fp_growth/Preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="34" column="71" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="71" />
+          <folding>
+            <element signature="e#35#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/alternating_least_squares/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
+        <state relative-caret-position="391">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="19" />
           <folding>
             <element signature="e#1#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/evandempsey_fp_growth/pyfpgrowth/pyfpgrowth.py" />
-    <entry file="file://$PROJECT_DIR$/src/alternating_least_squares/Preprocessing.py">
+    <entry file="file://$PROJECT_DIR$/src/alternating_least_squares/evaluation/AllTrainSetNewOnlyTestSetEvaluation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+        <state relative-caret-position="255">
+          <caret line="73" column="118" selection-start-line="73" selection-start-column="90" selection-end-line="73" selection-end-column="118" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fp_growth/Preprocessing.py">
+    <entry file="file://$PROJECT_DIR$/src/fp_growth/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="52" column="44" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="44" />
+        <state relative-caret-position="-540">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
           <folding>
             <element signature="e#35#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataset/modified/fp_growth/evaluation/New Text Document.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alternating_least_squares/evaluation/AllReorderedTrainSetAllNewTestSetEvaluation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fp_growth/evaluation/AllReorderedTrainSetAllNewTestSetEvaluation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1782">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fp_growth/evaluation/AllTrainSetNewOnlyTestSetEvaluation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="113" column="49" selection-start-line="113" selection-start-column="49" selection-end-line="113" selection-end-column="49" />
+          <folding>
+            <element signature="e#35#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataset/modified/alternating_least_squares/evaluation/all_train-set__new-only_test-set_evaluation--sample-10000-seed-145.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#35#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fp_growth/Main.py">
+    <entry file="file://$PROJECT_DIR$/src/dataset/modified/fp_growth/evaluation/all_train-set__new-only_test-set_evaluation--sample-10000-seed-145.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="e#35#48#0" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataset/modified/fp_growth/evaluation/all-reordered_train-set__all-new_test-set_evaluation--sample-10000-seed-145.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataset/modified/alternating_least_squares/evaluation/all-reordered_train-set__all-new_test-set_evaluation--sample-10000-seed-145.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataset/modified/alternating_least_squares/evaluation/all-reordered_train-set__all-new_test-set_evaluation--sample-100-seed-145.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataset/modified/alternating_least_squares/evaluation/all_train-set__new-only_test-set_evaluation--sample-100-seed-145.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>

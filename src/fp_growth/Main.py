@@ -16,12 +16,6 @@ def fp_growth_main(user, support_threshold=30000, confidence_threshold=0.01):
         with open('dataset/modified/fp_growth/rules' + str(support_threshold) + '_' + str(confidence_threshold) + '.pickle', 'rb') as handle:
             rules = pickle.load(handle)
 
-    print(recommend(user, rules))
-
-
-
-def recommend(user, rules):
-
     if os.path.isfile('dataset/modified/user_product_data.csv'):
         print("Reading user_product_data.csv")
         user_product_data = pd.read_csv('dataset/modified/user_product_data.csv')
@@ -37,6 +31,21 @@ def recommend(user, rules):
         product_name = product_data.loc[product_data['product_id'] == product]['product_name'].iat[0]
         print("User:", user, "- Product: ", product_name)
 
+    recommended_rules = recommend(rules, user_products)
+
+    print("User Recommended Products")
+    for rule in recommended_rules:
+
+        consequent = rule[1]
+        confidence = rule[3]
+
+        for product in consequent:
+            product_name = product_data.loc[product_data['product_id'] == product]['product_name'].iat[0]
+            print("Recommended Product:", user, "- Product: ", product_name, "- Confidence:", confidence)
+
+
+
+def recommend(rules, user_products, N=10):
 
     applicable_rules = []
     for rule in rules:
@@ -59,26 +68,25 @@ def recommend(user, rules):
 
     recommended_rules = sorted(applicable_rules, key=lambda x: x[3], reverse=True)
 
-    print("User Recommended Products")
-
     i = 0
     products_recommended = []
+    rules_used = []
 
     for rule in recommended_rules:
 
-        if len(products_recommended) >= 10:
+        if len(products_recommended) >= N:
             break
 
         consequent = rule[1]
-        confidence = rule[3]
 
         for product in consequent:
 
             if product not in products_recommended:
                 i += 1
                 products_recommended.append(product)
-                product_name = product_data.loc[product_data['product_id'] == product]['product_name'].iat[0]
-                print("Recommended Product:", user, "- Product: ", product_name, "- Confidence:", confidence)
+                rules_used.append(rule)
+
+    return rules_used
 
 
 def getAllRules(rules):
